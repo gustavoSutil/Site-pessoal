@@ -1,0 +1,15 @@
+body,head{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 0px;
+    margin: 0px;
+}
+.barra_superior{
+    height: 700PX;
+    background-image: linear-gradient(to top,#ffff,#303030);
+    margin-top: -10px;
+}
+.nome_inicio{
+    margin-top: 10px;
+    font-size: 30px;
+    color:#F2F2F2;
+}
