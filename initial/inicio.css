@@ -1,15 +1,69 @@
-body,head{
+body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 0px;
-    margin: 0px;
+    margin:0px;
+    text-decoration: none;
+    padding-top: 0px;
 }
-.barra_superior{
-    height: 700PX;
-    background-image: linear-gradient(to top,#ffff,#303030);
-    margin-top: -10px;
+.barraSuperior {
+    background-color: black;
+    margin-top: 0px;
+    position: initial;
+    height: 8vh;
 }
-.nome_inicio{
-    margin-top: 10px;
-    font-size: 30px;
-    color:#F2F2F2;
+.nomeInicio{
+    margin-inline-end: 0px;
+    position:absolute;
+    font-size: 40px;
+    color:#ffffff;
+    letter-spacing: 2px;
+    width: max-content;
+    cursor:pointer;
+    width: max-content;
+    display: inline;
+    align-content: center;
+}
+.menu div{
+    position:absolute;
+    right: 8px;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+}
+.lateral{
+    color: #ffffff;
+    width: max-content;
+}
+.fundo{
+    height: 700px;
+    background-image: linear-gradient(to top,rgb(22, 172, 164),#303030);
+    margin-top: 0px;
+    position: relative;
+}
+
+.linhaFoto{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.divFoto{
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-inline-end: 100px;
+    margin-top: 0px;
+    width: 505px;
+}
+.minhaFoto{
+    border:6px;
+    border-color: #303030;
+    border-style: solid;
+}
+.boxInformacoes{
+    height: max-content;
+    text-align:unset;
+    width: 370px;
+    color:#ffffff;
+    font-size: 18px;
 }
