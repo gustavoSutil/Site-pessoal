@@ -4,38 +4,45 @@ body{
     text-decoration: none;
     padding-top: 0px;
 }
+
+
 .barraSuperior {
-    background-color: black;
+    background-color: #000010;
     margin-top: 0px;
-    position: initial;
-    height: 8vh;
+    height: 60px;
 }
+
+.barraSuperior center{
+    padding-left:calc(50% - 325px);
+    padding-right: calc(50% - 395px);
+}
+
+
+center{
+    align-items: center;
+    padding-top: 8px;
+    width: max-content;
+    display: inline-block;
+}
+
 .nomeInicio{
-    margin-inline-end: 0px;
-    position:absolute;
     font-size: 40px;
     color:#ffffff;
     letter-spacing: 2px;
-    width: max-content;
     cursor:pointer;
-    width: max-content;
-    display: inline;
-    align-content: center;
+    display: inline-block;
+    align-self: center;
 }
-.menu div{
-    position:absolute;
-    right: 8px;
-    width: 32px;
-    height: 2px;
-    background: #ffffff;
+
+.navbar{
+    position: static;
+    display: inline-block;
+    cursor:pointer;
 }
-.lateral{
-    color: #ffffff;
-    width: max-content;
-}
+
 .fundo{
     height: 700px;
-    background-image: linear-gradient(to top,rgb(22, 172, 164),#303030);
+    background-image: linear-gradient(#303030,rgb(22, 172, 164));
     margin-top: 0px;
     position: relative;
 }
@@ -48,6 +55,7 @@ body{
     align-items: center;
     
 }
+
 .divFoto{
     padding-left: 20px;
     padding-top: 30px;
@@ -55,11 +63,13 @@ body{
     margin-top: 0px;
     width: 505px;
 }
+
 .minhaFoto{
     border:6px;
     border-color: #303030;
     border-style: solid;
 }
+
 .boxInformacoes{
     height: max-content;
     text-align:unset;
