@@ -1,6 +1,5 @@
 function contato(){
-    window.alert("aaaaaa");
-    window.location.href="./initial/contato/contato.html"
+    window.location.href="./contato.html"
 }
 function maisInformacoes(){
     // window.location.href = "";
