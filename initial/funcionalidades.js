@@ -1,14 +1,14 @@
 function contato(){
-    window.location.href="/contato/contato.html"
+    window.location.href="https://cc.uffs.edu.br/pessoa/gustavo.alberton/contato";
 }
 function maisInformacoes(){
-    // window.location.href = "";
+    // window.location.href = ;
 }
 function contato(){
     // window.location.href = "";
 }
 function home(){
-    // window.location.href = "";
+    window.location.href = "https://cc.uffs.edu.br/pessoa/gustavo.alberton/";
 }
 
 var contagem=0;
