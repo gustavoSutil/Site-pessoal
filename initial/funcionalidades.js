@@ -1,5 +1,5 @@
 function contato(){
-    window.location.href="https://cc.uffs.edu.br/pessoa/gustavo.alberton/contato";
+    window.location.href="https://cc.uffs.edu.br/pessoa/gustavo.alberton/contato/";
 }
 function maisInformacoes(){
     // window.location.href = ;
@@ -90,7 +90,7 @@ function lingPython(img,text,conteudo){
     // atualiza os dados
     img.remove();
     text.remove();
-    return conteudo.insertAdjacentHTML('beforeend','<img id="imgLing" class="imgLing" src="/initial/img/python.png"><h2 id="txtLing" class="texto">Python:<br>Conhecimento em desenvolvimento de aplicações com uso de bibliotecas como pandas e tkinter.</h2>');
+    return conteudo.insertAdjacentHTML('beforeend','<img id="imgLing" class="imgLing" src="python.png"><h2 id="txtLing" class="texto">Python:<br>Conhecimento em desenvolvimento de aplicações com uso de bibliotecas como pandas e tkinter.</h2>');
 }
 function lingJs(img,text,conteudo){
     // deixa o fundo preto do selecionado 
@@ -110,7 +110,7 @@ function lingJs(img,text,conteudo){
     // atualiza os dados
     img.remove();
     text.remove();
-    return conteudo.insertAdjacentHTML('beforeend','<img id="imgLing" class="imgLing" src="/initial/img/js.png"><h2 id="txtLing" class="texto">Javascript:<br>Conhecimento da linguagem para desenvolvimeto de páginas web.</h2>');
+    return conteudo.insertAdjacentHTML('beforeend','<img id="imgLing" class="imgLing" src="js.png"><h2 id="txtLing" class="texto">Javascript:<br>Conhecimento da linguagem para desenvolvimeto de páginas web.</h2>');
 }
 function lingHtml(img,text,conteudo){
     // deixa o fundo preto do selecionado
@@ -130,7 +130,7 @@ function lingHtml(img,text,conteudo){
     // atualiza os dados
     img.remove();
     text.remove();
-    return conteudo.insertAdjacentHTML('beforeend','<img  id="imgLing" class="imgLing" src="/initial/img/html.png"><h2 id="txtLing" class="texto">HTML:<br>Conhecimento em construção de páginas web com HTML.</h2>');
+    return conteudo.insertAdjacentHTML('beforeend','<img  id="imgLing" class="imgLing" src="html.png"><h2 id="txtLing" class="texto">HTML:<br>Conhecimento em construção de páginas web com HTML.</h2>');
 }
 function lingCss(img,text,conteudo){
     // deixa o fundo preto do selecionado
@@ -153,5 +153,5 @@ function lingCss(img,text,conteudo){
     // atualiza os dados
     img.remove();
     text.remove();
-    return conteudo.insertAdjacentHTML('beforeend','<img id="imgLing" class="imgLing" src="/initial/img/css.png"><h2 id="txtLing" class="texto">CSS:<br>Conhecimento em estilizar páginas web.</h2>')
+    return conteudo.insertAdjacentHTML('beforeend','<img id="imgLing" class="imgLing" src="css.png"><h2 id="txtLing" class="texto">CSS:<br>Conhecimento em estilizar páginas web.</h2>')
 }
