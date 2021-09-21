@@ -31,7 +31,6 @@ function apagar(){
      return sair.remove();
 }
 
-
 // passa pelas linguagens
 var posicao=1;
 function linguagem(numero,fazerPadrao){
