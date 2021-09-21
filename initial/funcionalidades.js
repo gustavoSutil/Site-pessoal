@@ -1,5 +1,5 @@
 function contato(){
-    window.location.href="https://cc.uffs.edu.br/pessoa/gustavo.alberton/contato/";
+    window.location.href="/contato/contato.html";
 }
 function maisInformacoes(){
     // window.location.href = ;
