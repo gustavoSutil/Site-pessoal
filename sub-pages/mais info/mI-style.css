@@ -1,0 +1,91 @@
+body,head{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0px;
+    text-decoration: none;
+    padding-top: 0px;
+}
+
+.barraSuperior {
+    background-color: #000010;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.barraSuperior center{
+    padding-left:calc(50% - 325px);
+    padding-right: calc(50% - 395px);
+}
+
+
+center{
+    align-items: center;
+    padding-top: 8px;
+    width: max-content;
+    display: inline-block;
+}
+
+.nomeInicio{
+    font-size: 40px;
+    color:#ffffff;
+    letter-spacing: 2px;
+    cursor:pointer;
+    display: inline-block;
+    align-self: center;
+}
+#menu{
+    height: 0px;
+}
+.navbar{
+    display: inline-block;
+    cursor:pointer;
+}
+#opcoes{
+    background-color: #000010;
+    width: 225px;
+    height: 400px;
+    position: relative;
+    left: calc(100% - 225px);
+    top:calc(-00px);
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#opcoes li{
+    padding-top: 74px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.fundo{
+    height: 1100px;
+    background-image: linear-gradient(#303030,rgb(22, 172, 164));
+    margin-top: 0px;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+
+.barraInferior{
+    background-color: #000010;
+    height: 200px;
+}
+.linhaInferior{
+    width: max-content;
+    justify-content: space-around;
+    display: inline-flex;
+    justify-items:center;
+    position: relative;
+    padding-top: 100px;
+    left: calc(50% - (570px / 2));
+    right: calc(50% - (570px / 2));
+}
+.barraInferior li{
+    color: #fff;
+    letter-spacing: 1px;
+    display: inline;
+    font-size: 22px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 70px;
+}
