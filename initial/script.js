@@ -1,11 +1,11 @@
 function contato(){
-    window.location.href="/contato/contato.html";
+    window.location.href ='/sub-pages/contato/contato.html'
+}
+function carreira(){
+    window.location.href = "/sub-pages/carreira/carreira.html";
 }
 function maisInformacoes(){
-    // window.location.href = ;
-}
-function contato(){
-    // window.location.href = "";
+    window.location.href = "/sub-pages/mais info/maisInfo.html";
 }
 function home(){
     window.location.href = "https://cc.uffs.edu.br/pessoa/gustavo.alberton/";
@@ -51,7 +51,7 @@ function linguagem(numero,fazerPadrao){
     }
     //pular fim-->inicio
     if (posicao==0){
-        posicao=5;
+        posicao=4;
     }
     //phyton
     if (posicao==1){

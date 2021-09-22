@@ -1,3 +1,4 @@
+//redirecionamentos
 function contato(){
     window.location.href ='/sub-pages/contato/contato.html'
 }
@@ -13,7 +14,15 @@ function home(){
 function github(){
     window.open("https://github.com/gustavoSutil","_blank")
 }
+function discord(){
+    window.alert("Para jogarmos, conversarmos... aqui esta meu ID:\n#3699")
+}
+function linkedin(){
+    window.open("https://www.linkedin.com/in/gustavo-sutil-7132a4217/","_blank")
+}
 
+
+//navbar
 var contagem=0;
 function nav(numero){
     //ver se par ou nao
