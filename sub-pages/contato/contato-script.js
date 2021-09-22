@@ -23,6 +23,13 @@ function linkedin(){
 function whats(){
     window.open("https://wa.me/5549984170729?text=","_blank")
 }
+function telegram(){
+    window.open("https://t.me/GustavoSutil","_blank")
+}
+function gmail(){
+    window.alert("Email:\ngustavosutil242@gmail.com")
+    window.open("https://malito:gustavosutil242@gmail.com/","_blank")
+}
 
 //navbar
 var contagem=0;
