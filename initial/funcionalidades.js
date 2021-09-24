@@ -8,7 +8,7 @@ function maisInformacoes(){
     window.location.href = "/sub-pages/mais info/maisInfo.html";
 }
 function home(){
-    window.location.href = "https://cc.uffs.edu.br/pessoa/gustavo.alberton/";
+    window.location.href = "https://gustavosutil.000webhostapp.com/";
 }
 
 var contagem=0;
