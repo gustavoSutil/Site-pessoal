@@ -58,7 +58,7 @@ center{
     cursor: pointer;
 }
 .fundo{
-    height: 1500px;
+    height: 1000px;
     background-image: linear-gradient(#303030,rgb(22, 172, 164));
     margin-top: 0px;
     position: relative;
@@ -124,48 +124,6 @@ center{
     left: calc(40% - 300px);
 }
 .linkedin a,img{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    text-size-adjust: center;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 30px;
-    cursor: pointer;
-}
-.whats{
-    width: max-content;
-    height: max-content;
-    position: relative;
-    top: 100px;
-    right: calc(-60% + 300px);
-}
-
-.whats a,img{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    text-size-adjust: center;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.line3{
-    margin-top: 100px;
-    display: flex;
-}
-
-.telegram{
-    width: max-content;
-    height: max-content;
-    position: relative;
-    top: 100px;
-    left: calc(40% - 300px);
-}
-
-.telegram a,img{
     text-decoration: none;
     color: #fff;
     display: block;

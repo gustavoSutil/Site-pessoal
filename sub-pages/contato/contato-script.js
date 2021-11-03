@@ -20,12 +20,6 @@ function discord(){
 function linkedin(){
     window.open("https://www.linkedin.com/in/gustavo-sutil-7132a4217/","_blank")
 }
-function whats(){
-    window.open("https://wa.me/5549984170729?text=","_blank")
-}
-function telegram(){
-    window.open("https://t.me/GustavoSutil","_blank")
-}
 function gmail(){
     window.alert("Email:\ngustavosutil242@gmail.com")
     window.open("https://malito:gustavosutil242@gmail.com/","_blank")
