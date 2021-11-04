@@ -15,14 +15,37 @@ function github(){
     window.open("https://github.com/gustavoSutil","_blank")
 }
 function discord(){
-    window.alert("Para jogarmos, conversarmos... aqui esta meu ID:\n#3699")
+    alerta('Para jogar ou conversar. ID:','#3699')
 }
 function linkedin(){
     window.open("https://www.linkedin.com/in/gustavo-sutil-7132a4217/","_blank")
 }
 function gmail(){
-    window.alert("Email:\ngustavosutil242@gmail.com")
-    window.open("https://malito:gustavosutil242@gmail.com/","_blank")
+    alerta('Este é o meu email:','gustavosutil242@gmail.com')
+}
+
+
+//label para copiar texto
+var janelas=0
+function alerta(doQueSeTrata,mensagemPraCopiar){
+    janelas+=1
+    if (janelas==1){
+        localInserir=document.getElementById("divLabelAlerta")
+        msgAlertaTitolo='<span id="spanAlerta"><div id="alertas"><article><h2>'
+        msgAlertaTextArea='</h2><textarea id="textAreaCopiar" placeholder="Por que apagariam isso.🤔" cols="25" rows="1">'
+        fim='</textarea><div id="aposCopiar"></div><button onclick="copiaTextoAlerta()">Copiar</button><button onclick="fechaAlerta()">Fechar</button></article></div></span>'
+        msgcompleta=(msgAlertaTitolo+doQueSeTrata+msgAlertaTextArea+mensagemPraCopiar+fim)
+        localInserir.insertAdjacentHTML('afterEnd',msgcompleta)
+    }
+}
+function copiaTextoAlerta(){
+    areaTextoEmail=document.getElementById("textAreaCopiar").value
+    navigator.clipboard.writeText(areaTextoEmail)
+}
+function fechaAlerta(){
+    apagarElemento=document.getElementById("spanAlerta")
+    apagarElemento.remove()
+    janelas=0
 }
 
 //navbar

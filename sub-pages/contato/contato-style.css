@@ -63,6 +63,7 @@ center{
     margin-top: 0px;
     position: relative;
     letter-spacing: 2px;
+    z-index: 1;
 }
 .titolo{
     width: max-content;
@@ -73,8 +74,42 @@ center{
     font-size: 35px;
     color:#ffffff;
 }
+#alertas{
+    width: 400px;
+    max-width: 400px;
+    height:165px;
+    max-height: 165px;
+    background-color: red;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    top: calc(50% - 165px);
+    left: calc(50% - 200px);
+    margin-bottom: -165px;
+    border-radius:20px;
+}
+#alertas button{
+    margin-top: 10px;
+    background-color: red;
+    border-bottom-color: white;
+    color: #fff;
+    width:115px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+#alertas textarea{
+    height: 40px;
+    font-size:25px;
+}
+#alertas h2{
+    border-top: 15px;
+    margin-left: 15px;
+}
 .line1{
     display: flex;
+    z-index: 1;
 }
 .github{
     width: max-content;
@@ -82,6 +117,7 @@ center{
     position: relative;
     top: 100px;
     left: calc(40% - 300px);
+    z-index: 1;
 }
 .github a,img{
     text-decoration: none;
@@ -92,6 +128,7 @@ center{
     padding-top: 10px;
     font-size: 30px;
     cursor: pointer;
+    z-index: 1;
 }
 .discord{
     width: max-content;
@@ -99,6 +136,7 @@ center{
     position: relative;
     top: 100px;
     right: calc(-60% + 300px);
+    z-index: 1;
 }
 
 .discord a,img{
@@ -110,11 +148,13 @@ center{
     padding-top: 10px;
     font-size: 30px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .line2{
     margin-top: 100px;
     display: flex;
+    z-index: 1;
 }
 .linkedin{
     width: max-content;
@@ -122,6 +162,7 @@ center{
     position: relative;
     top: 100px;
     left: calc(40% - 300px);
+    z-index: 1;
 }
 .linkedin a,img{
     text-decoration: none;
@@ -132,6 +173,7 @@ center{
     padding-top: 10px;
     font-size: 30px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .gmail{
@@ -140,6 +182,7 @@ center{
     position: relative;
     top: 100px;
     right: calc(-60% + 300px);
+    z-index: 1;
 }
 
 .gmail a,img{
@@ -151,6 +194,7 @@ center{
     padding-top: 10px;
     font-size: 30px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .barraInferior{
