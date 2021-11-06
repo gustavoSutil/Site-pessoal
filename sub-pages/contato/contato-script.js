@@ -54,10 +54,10 @@ function nav(numero){
     //ver se par ou nao
     contagem=contagem+numero
     if (contagem%2==0){
-        apagar()
+        apagar();
     }
     else{
-        inserir()
+        inserir();
     }
 }
 function inserir(){
