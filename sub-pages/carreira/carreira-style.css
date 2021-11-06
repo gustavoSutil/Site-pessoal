@@ -10,7 +10,6 @@ body,head{
     margin-top: 0px;
     height: 60px;
 }
-
 .barraSuperior center{
     padding-left:calc(50% - 325px);
     padding-right: calc(50% - 395px);
@@ -64,8 +63,25 @@ center{
     position: relative;
     letter-spacing: 2px;
 }
-
-
+.titolo{
+    width: max-content;    
+    border-top: 40px;
+    margin:0px;
+    font-size: 35px;
+    color:#ffffff;
+}
+.areaTextoCarreira{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+}
+.textoCarreira{
+    margin-top: 25px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-decoration: none;
+}
 .barraInferior{
     background-color: #000010;
     height: 200px;
