@@ -57,7 +57,7 @@ center{
     cursor: pointer;
 }
 .fundo{
-    height: 800px;
+    height: 1100;
     background-image: linear-gradient(#303030,rgb(22, 172, 164));
     margin-top: 0px;
     position: relative;
